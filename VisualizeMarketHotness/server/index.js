@@ -38,10 +38,10 @@ app.get("/score/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const allMetricId = await pool.query(
-      "select market_id,sum from(select market_id,sum(score) from(select market_id,((new_listings_count/(days_to_sell+days_to_pending))+median_sale_to_list_ratio+homes_sold_over_list_price_count) as score from market_metrics)as A group by market_id)as B where market_id=$1",
+      "select * from(select market_id,sum(new_listings_count)as nlc,sum(sold_homes_count)as shc,sum(homes_sold_over_list_price_count)as hsolpc,sum(median_sale_to_list_ratio)as mstlr,sum(days_to_pending)as dtp,sum(days_to_sell)as dts,sum(score)as s from market_metrics group by market_id )as A where market_id=$1",
       [id]
     );
-    res.json(allMetricId.rows[0]);
+    res.json(allMetricId.rows);
   } catch (err) {
     console.error(err.message);
   }

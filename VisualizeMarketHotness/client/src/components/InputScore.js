@@ -9,6 +9,7 @@ const InputScore = () => {
     try {
       const response = await fetch("http://localhost:5000/score");
       const jsonData = await response.json();
+      console.log(jsonData);
       setMarketId(jsonData);
     } catch (err) {
       console.error(err.message);
@@ -22,7 +23,8 @@ const InputScore = () => {
   useEffect(() => {
     getMarketId();
   }, []);
-  console.log(marketId);
+  //console.log("hi");
+  //console.log(marketId);
   return (
     <div>
       <h1 className="highlight">Choose the MARKET ID and search for it!</h1>
@@ -59,6 +61,8 @@ const InputScore = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div>
         {flag === 1 && <DisplayChart Displayid={chosenid}></DisplayChart>}
       </div>
     </div>
