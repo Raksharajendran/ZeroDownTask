@@ -1,0 +1,22 @@
+.bs-example {
+  margin: 20px 620px;
+}
+
+.text_score {
+  text-align: center;
+  color: crimson;
+}
+
+.highlight {
+  margin: 50px 20px;
+  text-align: center;
+  color: rgb(120, 9, 120);
+}
+
+.bs-example1 {
+  margin: 20px;
+}
+
+.margin_h4 {
+  margin: 30px;
+}
