@@ -6,6 +6,8 @@
 * Databse - PostgreSQL
 
 ## 1. Import data into a database
+* Preprocessed the data
+
 ![databse](https://user-images.githubusercontent.com/76252013/218284836-7704fd10-86f8-41f6-a4ed-45d48572c3a0.png)
 
 ## 2. Algorithm to determine the score of a given market
