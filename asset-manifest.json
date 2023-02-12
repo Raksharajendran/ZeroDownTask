@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ZeroDownTask/static/css/main.432545b4.css",
+    "main.js": "/ZeroDownTask/static/js/main.13542a6e.js",
+    "index.html": "/ZeroDownTask/index.html",
+    "main.432545b4.css.map": "/ZeroDownTask/static/css/main.432545b4.css.map",
+    "main.13542a6e.js.map": "/ZeroDownTask/static/js/main.13542a6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.432545b4.css",
+    "static/js/main.13542a6e.js"
+  ]
+}
