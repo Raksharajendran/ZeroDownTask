@@ -30,3 +30,4 @@ Created a simple UI that takes the market id from the user and the displays the 
 ![bar](https://user-images.githubusercontent.com/76252013/218285379-97bbee05-a7e0-4d51-a00b-bb0998437bee.png)
 
 # MY FINAL OUTPUT OF THE MARKET HOTNESS TASK:
+https://user-images.githubusercontent.com/76252013/218287286-5e5b5d06-2242-47b0-9bc5-d6c3cb9da8b3.mp4
