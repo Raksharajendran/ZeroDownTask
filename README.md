@@ -28,3 +28,5 @@ Created a simple UI that takes the market id from the user and the displays the 
 #### visualized median_sale_to_list_ratio, days_to_pending,days_to_sell along with score. An increase of decrese in these any one of these three factors affects the score. A decrease in the median_sale_to_list_ratio increases the score. While an increase in days_to_pending or days_to_sell would decrease the score.
 
 ![bar](https://user-images.githubusercontent.com/76252013/218285379-97bbee05-a7e0-4d51-a00b-bb0998437bee.png)
+
+# MY FINAL OUTPUT OF THE MARKET HOTNESS TASK:
